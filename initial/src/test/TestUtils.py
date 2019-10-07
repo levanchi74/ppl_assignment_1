@@ -38,8 +38,10 @@ class TestLexer:
     @staticmethod    
     def printLexeme(dest,lexer):
         tok = lexer.nextToken()
+        #print(tok) #add
         if tok.type != Token.EOF:
             dest.write(tok.text+",")
+            #dest.write(str(tok.type)+" "+tok.text+",") #add
             TestLexer.printLexeme(dest,lexer)
         else:
             dest.write("<EOF>")

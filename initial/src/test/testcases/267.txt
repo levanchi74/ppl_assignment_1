@@ -1,0 +1,3 @@
+int main() {
+            if (a[c[5]]+b==c) return true;
+        }

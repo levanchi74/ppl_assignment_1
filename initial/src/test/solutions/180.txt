@@ -1,0 +1,1 @@
+int,[,],foo,(,float,1,as,),{,},<EOF>

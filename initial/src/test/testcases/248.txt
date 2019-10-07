@@ -1,0 +1,24 @@
+ // comment 
+                    // aaaaaa
+                    // int a ;
+                    //int b ; 
+                    //int c[] ;
+                    // int foo() {
+                    //}
+                    
+                 
+                    boolean main(){
+                        do {
+                            int a ;
+                            a = a + 1; 
+                        }
+                        while( a == b ) ;
+                        return true ;
+                        
+                    }
+                    
+                    int foo(int a) {
+                        return 2 ;
+                    }
+                   
+        

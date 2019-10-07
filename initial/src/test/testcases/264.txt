@@ -1,0 +1,3 @@
+boolean gh() {
+            do { f(); } fo(); while a == 2;
+        }

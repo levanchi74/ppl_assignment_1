@@ -1,0 +1,13 @@
+ 
+                    boolean b; // a variable of type boolean
+                    int i; // a variable of type int
+                    
+                    float f;  // a variable of type float
+                    boolean ba[5]; // a variable of type array on boolean // a variable of type array on int
+                    int ia[3];  // a variable of type array on float
+                    float fa[100];
+                    void foo(int _as[]){
+                    
+                   
+                    }
+        

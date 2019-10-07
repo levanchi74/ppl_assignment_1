@@ -1,0 +1,4 @@
+void test_param(int a[100])
+                {
+                }
+        

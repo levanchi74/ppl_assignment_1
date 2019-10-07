@@ -1,0 +1,3 @@
+boolean a;
+        void foo(){
+                a=true;}

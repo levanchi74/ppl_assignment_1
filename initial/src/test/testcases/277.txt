@@ -1,0 +1,4 @@
+void main(){
+                boolean c;
+                if (a) do ; 
+                }

@@ -1,1 +1,1 @@
-// line /* block */
+/* comment */abc/* comment */

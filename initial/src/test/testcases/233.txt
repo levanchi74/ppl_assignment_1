@@ -1,0 +1,9 @@
+ 
+                    
+                    void foo(int _as[]){
+                    
+                    int a ;
+                    a = 1 + b  ;
+                    /* loi roi m oi */
+                    }
+        

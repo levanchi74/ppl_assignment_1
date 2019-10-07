@@ -1,1 +1,1 @@
-143,e,<EOF>
+boolean,BOlean,BOOLEAN,if,If,If,IF,<EOF>

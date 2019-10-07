@@ -1,0 +1,6 @@
+ 
+                   void foo(){
+                    foo() ;
+                    foo(2) ; 
+                   }
+        

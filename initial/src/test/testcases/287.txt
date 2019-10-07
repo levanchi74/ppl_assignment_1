@@ -1,0 +1,4 @@
+void main(){
+               foo(foo(3))[3+x] = a[b[2]] +3;
+            }
+        

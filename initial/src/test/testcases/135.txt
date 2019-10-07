@@ -1,1 +1,1 @@
-void
+ "\" python \" is great" 

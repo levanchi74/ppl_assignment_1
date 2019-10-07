@@ -1,0 +1,1 @@
+int ab,cd,abc_sssd[2] ;

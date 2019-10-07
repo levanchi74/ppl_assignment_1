@@ -1,0 +1,1 @@
+var,abc,abc123,_abc,arr,[,5,],arr,[,n,],<EOF>

@@ -1,0 +1,12 @@
+  void foo(int _as[]){
+                    boolean b ; 
+                    int i; 
+                    float f;  
+                    boolean ba[5]; 
+                   
+                    int ia[3] ; 
+                    float fa[100];
+                    float ab,ac,ad,lf;
+                    /* loi roi m oi */
+                    }
+        

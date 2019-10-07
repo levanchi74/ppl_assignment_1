@@ -1,0 +1,9 @@
+
+        int a,b,c;
+        string total[100];
+        boolean flag;
+        int main ()
+        {
+            return a || (abc - a[(a*(a+b)-(a/b))]);
+            return a || abc - a[a*(a+b)-(a/b)] ;
+        }

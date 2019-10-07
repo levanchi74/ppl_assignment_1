@@ -1,0 +1,12 @@
+ 
+                   void foo(){
+                    foo() ;
+                    foo(2) ; 
+                    foo(1 , 2) ;
+                    
+                    i + 2 ;
+                    100;
+                    int a,b,c ;
+                    a=b=c=d= 2 ;
+                   }
+        

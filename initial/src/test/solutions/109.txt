@@ -1,1 +1,1 @@
-abc,<EOF>
+!,123,_abcABC,<EOF>

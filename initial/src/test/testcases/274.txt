@@ -1,0 +1,6 @@
+void foo(float a[]){}
+                void goo(boolean x[]){
+                float y[10];
+                int z[];
+                foo(x);
+                }

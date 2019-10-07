@@ -1,0 +1,17 @@
+ // comment 
+                    // aaaaaa
+                    // int a ;
+                    //int b ; 
+                    //int c[] ;
+                    // int foo() {
+                    //}
+                    boolean main(){
+                        return true ;
+                        
+                    }
+                    
+                    int foo(int a) {
+                        return 2 ;
+                    }
+                   
+        

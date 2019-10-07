@@ -1,0 +1,9 @@
+
+        int main ()
+        {
+            string abc999,def;
+            {
+                foo(abc + cbd - (asd - (a/b*c)))[foo(abc + cbd - (asd - (a/b*c)))] = 500;
+                continue;
+            }
+        }

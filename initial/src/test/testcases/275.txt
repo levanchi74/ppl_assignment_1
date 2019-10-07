@@ -1,0 +1,2 @@
+void foo(boolean x[]){
+                    if(a==5) if () return a==5; else a=3; else a=7; else a=9;}

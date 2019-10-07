@@ -1,0 +1,4 @@
+void test(){
+                string nest_func();
+                }
+                

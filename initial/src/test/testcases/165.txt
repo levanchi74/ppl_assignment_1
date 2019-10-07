@@ -1,0 +1,17 @@
+ 
+                    void foo ( ) {
+                    if (a <  b) return ; //CORRECT
+                    else return 2 ; //WRONG
+                    }
+                    void foo(int _as[]){
+                    
+                    int a ;
+                    a = 1 * b  ;
+                    b = 1/b;
+                    if (i > 0 ){
+                    int d ;
+                    d = i + 3 ;
+                    }
+                    /* loi roi m oi */
+                    }
+        

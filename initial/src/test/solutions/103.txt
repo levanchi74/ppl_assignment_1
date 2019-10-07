@@ -1,1 +1,1 @@
-_abcABC_,<EOF>
+a,:,=,a,Error Token &

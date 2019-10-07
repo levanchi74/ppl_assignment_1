@@ -1,0 +1,13 @@
+ 
+                    int abc(){
+                        int a ; 
+                        int b ;
+                        int c[5];
+                        c[3]= a+b ;
+                    a = b + a;
+                    return( a / b +( b + a)/c[3] + c[2]*c[1] - a*b )/34 ;
+                    }
+                    boolean asdasd____(int a[]){
+                    return a != b ;
+                    }
+        

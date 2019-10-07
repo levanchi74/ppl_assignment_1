@@ -1,1 +1,1 @@
-ABCabc123_,<EOF>
+123,token,Error Token ~

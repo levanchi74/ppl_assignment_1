@@ -1,0 +1,8 @@
+float i ;
+            void f() {
+                return 200;
+            }
+            int main(){
+                putInt(10);
+            }
+        

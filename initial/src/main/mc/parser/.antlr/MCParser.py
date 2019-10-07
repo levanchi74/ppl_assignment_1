@@ -38,8 +38,8 @@ def serializedATN():
         buf.write("\3\36\3\36\3\36\3\36\3\36\7\36\u011f\n\36\f\36\16\36\u0122")
         buf.write("\13\36\5\36\u0124\n\36\3\36\3\36\3\37\3\37\3\37\3\37\3")
         buf.write("\37\3 \3 \3 \2\7*,\62\648!\2\4\6\b\n\f\16\20\22\24\26")
-        buf.write("\30\32\34\36 \"$&(*,.\60\62\64\668:<>\2\7\4\2\24\24\26")
-        buf.write("\30\3\2\36\37\3\2 \"\4\2\37\37##\3\2\3\6\2\u0133\2A\3")
+        buf.write("\30\32\34\36 \"$&(*,.\60\62\64\668:<>\2\7\4\2\23\23\25")
+        buf.write("\27\3\2\36\37\3\2 \"\4\2\37\37##\3\2\3\6\2\u0133\2A\3")
         buf.write("\2\2\2\4I\3\2\2\2\6K\3\2\2\2\bV\3\2\2\2\nX\3\2\2\2\f^")
         buf.write("\3\2\2\2\16j\3\2\2\2\20l\3\2\2\2\22p\3\2\2\2\24x\3\2\2")
         buf.write("\2\26~\3\2\2\2\30\u0090\3\2\2\2\32\u0092\3\2\2\2\34\u009b")
@@ -53,40 +53,40 @@ def serializedATN():
         buf.write("IG\3\2\2\2IH\3\2\2\2J\5\3\2\2\2KL\5\b\5\2LQ\5\n\6\2MN")
         buf.write("\7,\2\2NP\5\n\6\2OM\3\2\2\2PS\3\2\2\2QO\3\2\2\2QR\3\2")
         buf.write("\2\2RT\3\2\2\2SQ\3\2\2\2TU\7*\2\2U\7\3\2\2\2VW\t\2\2\2")
-        buf.write("W\t\3\2\2\2X\\\7\7\2\2YZ\7(\2\2Z[\7\3\2\2[]\7)\2\2\\Y")
-        buf.write("\3\2\2\2\\]\3\2\2\2]\13\3\2\2\2^_\5\16\b\2_`\7\7\2\2`")
-        buf.write("b\7$\2\2ac\5\22\n\2ba\3\2\2\2bc\3\2\2\2cd\3\2\2\2de\7")
-        buf.write("%\2\2ef\5\26\f\2f\r\3\2\2\2gk\5\b\5\2hk\7\25\2\2ik\5\20")
+        buf.write("W\t\3\2\2\2X\\\7\30\2\2YZ\7(\2\2Z[\7\3\2\2[]\7)\2\2\\")
+        buf.write("Y\3\2\2\2\\]\3\2\2\2]\13\3\2\2\2^_\5\16\b\2_`\7\30\2\2")
+        buf.write("`b\7$\2\2ac\5\22\n\2ba\3\2\2\2bc\3\2\2\2cd\3\2\2\2de\7")
+        buf.write("%\2\2ef\5\26\f\2f\r\3\2\2\2gk\5\b\5\2hk\7\24\2\2ik\5\20")
         buf.write("\t\2jg\3\2\2\2jh\3\2\2\2ji\3\2\2\2k\17\3\2\2\2lm\5\b\5")
         buf.write("\2mn\7(\2\2no\7)\2\2o\21\3\2\2\2pu\5\24\13\2qr\7,\2\2")
         buf.write("rt\5\24\13\2sq\3\2\2\2tw\3\2\2\2us\3\2\2\2uv\3\2\2\2v")
-        buf.write("\23\3\2\2\2wu\3\2\2\2xy\5\b\5\2y|\7\7\2\2z{\7(\2\2{}\7")
-        buf.write(")\2\2|z\3\2\2\2|}\3\2\2\2}\25\3\2\2\2~\u0083\7&\2\2\177")
-        buf.write("\u0082\5\6\4\2\u0080\u0082\5\30\r\2\u0081\177\3\2\2\2")
-        buf.write("\u0081\u0080\3\2\2\2\u0082\u0085\3\2\2\2\u0083\u0081\3")
-        buf.write("\2\2\2\u0083\u0084\3\2\2\2\u0084\u0086\3\2\2\2\u0085\u0083")
-        buf.write("\3\2\2\2\u0086\u0087\7\'\2\2\u0087\27\3\2\2\2\u0088\u0091")
-        buf.write("\5\32\16\2\u0089\u0091\5\34\17\2\u008a\u0091\5\36\20\2")
-        buf.write("\u008b\u0091\5 \21\2\u008c\u0091\5\"\22\2\u008d\u0091")
+        buf.write("\23\3\2\2\2wu\3\2\2\2xy\5\b\5\2y|\7\30\2\2z{\7(\2\2{}")
+        buf.write("\7)\2\2|z\3\2\2\2|}\3\2\2\2}\25\3\2\2\2~\u0083\7&\2\2")
+        buf.write("\177\u0082\5\6\4\2\u0080\u0082\5\30\r\2\u0081\177\3\2")
+        buf.write("\2\2\u0081\u0080\3\2\2\2\u0082\u0085\3\2\2\2\u0083\u0081")
+        buf.write("\3\2\2\2\u0083\u0084\3\2\2\2\u0084\u0086\3\2\2\2\u0085")
+        buf.write("\u0083\3\2\2\2\u0086\u0087\7\'\2\2\u0087\27\3\2\2\2\u0088")
+        buf.write("\u0091\5\32\16\2\u0089\u0091\5\34\17\2\u008a\u0091\5\36")
+        buf.write("\20\2\u008b\u0091\5 \21\2\u008c\u0091\5\"\22\2\u008d\u0091")
         buf.write("\5$\23\2\u008e\u0091\5&\24\2\u008f\u0091\5\26\f\2\u0090")
         buf.write("\u0088\3\2\2\2\u0090\u0089\3\2\2\2\u0090\u008a\3\2\2\2")
         buf.write("\u0090\u008b\3\2\2\2\u0090\u008c\3\2\2\2\u0090\u008d\3")
         buf.write("\2\2\2\u0090\u008e\3\2\2\2\u0090\u008f\3\2\2\2\u0091\31")
-        buf.write("\3\2\2\2\u0092\u0093\7\16\2\2\u0093\u0094\7$\2\2\u0094")
+        buf.write("\3\2\2\2\u0092\u0093\7\r\2\2\u0093\u0094\7$\2\2\u0094")
         buf.write("\u0095\5(\25\2\u0095\u0096\7%\2\2\u0096\u0099\5\30\r\2")
-        buf.write("\u0097\u0098\7\f\2\2\u0098\u009a\5\30\r\2\u0099\u0097")
+        buf.write("\u0097\u0098\7\13\2\2\u0098\u009a\5\30\r\2\u0099\u0097")
         buf.write("\3\2\2\2\u0099\u009a\3\2\2\2\u009a\33\3\2\2\2\u009b\u009d")
-        buf.write("\7\20\2\2\u009c\u009e\5\30\r\2\u009d\u009c\3\2\2\2\u009e")
+        buf.write("\7\17\2\2\u009c\u009e\5\30\r\2\u009d\u009c\3\2\2\2\u009e")
         buf.write("\u009f\3\2\2\2\u009f\u009d\3\2\2\2\u009f\u00a0\3\2\2\2")
-        buf.write("\u00a0\u00a1\3\2\2\2\u00a1\u00a2\7\21\2\2\u00a2\u00a3")
+        buf.write("\u00a0\u00a1\3\2\2\2\u00a1\u00a2\7\20\2\2\u00a2\u00a3")
         buf.write("\5(\25\2\u00a3\u00a4\7*\2\2\u00a4\35\3\2\2\2\u00a5\u00a6")
-        buf.write("\7\r\2\2\u00a6\u00a7\7$\2\2\u00a7\u00a8\5(\25\2\u00a8")
+        buf.write("\7\f\2\2\u00a6\u00a7\7$\2\2\u00a7\u00a8\5(\25\2\u00a8")
         buf.write("\u00a9\7*\2\2\u00a9\u00aa\5(\25\2\u00aa\u00ab\7*\2\2\u00ab")
         buf.write("\u00ac\5(\25\2\u00ac\u00ad\7%\2\2\u00ad\u00ae\5\30\r\2")
-        buf.write("\u00ae\37\3\2\2\2\u00af\u00b0\7\n\2\2\u00b0\u00b1\7*\2")
-        buf.write("\2\u00b1!\3\2\2\2\u00b2\u00b3\7\13\2\2\u00b3\u00b4\7*")
-        buf.write("\2\2\u00b4#\3\2\2\2\u00b5\u00b7\7\17\2\2\u00b6\u00b8\5")
-        buf.write("(\25\2\u00b7\u00b6\3\2\2\2\u00b7\u00b8\3\2\2\2\u00b8\u00b9")
+        buf.write("\u00ae\37\3\2\2\2\u00af\u00b0\7\t\2\2\u00b0\u00b1\7*\2")
+        buf.write("\2\u00b1!\3\2\2\2\u00b2\u00b3\7\n\2\2\u00b3\u00b4\7*\2")
+        buf.write("\2\u00b4#\3\2\2\2\u00b5\u00b7\7\16\2\2\u00b6\u00b8\5(")
+        buf.write("\25\2\u00b7\u00b6\3\2\2\2\u00b7\u00b8\3\2\2\2\u00b8\u00b9")
         buf.write("\3\2\2\2\u00b9\u00ba\7*\2\2\u00ba%\3\2\2\2\u00bb\u00bc")
         buf.write("\5(\25\2\u00bc\u00bd\7*\2\2\u00bd\'\3\2\2\2\u00be\u00bf")
         buf.write("\5*\26\2\u00bf\u00c0\7\31\2\2\u00c0\u00c1\5(\25\2\u00c1")
@@ -119,23 +119,23 @@ def serializedATN():
         buf.write("\u0103\58\35\2\u0102\u00ff\3\2\2\2\u0102\u0101\3\2\2\2")
         buf.write("\u0103\67\3\2\2\2\u0104\u0105\b\35\1\2\u0105\u0106\7$")
         buf.write("\2\2\u0106\u0107\5(\25\2\u0107\u0108\7%\2\2\u0108\u010e")
-        buf.write("\3\2\2\2\u0109\u010e\5> \2\u010a\u010e\7\7\2\2\u010b\u010e")
-        buf.write("\5:\36\2\u010c\u010e\5<\37\2\u010d\u0104\3\2\2\2\u010d")
-        buf.write("\u0109\3\2\2\2\u010d\u010a\3\2\2\2\u010d\u010b\3\2\2\2")
-        buf.write("\u010d\u010c\3\2\2\2\u010e\u0116\3\2\2\2\u010f\u0110\f")
-        buf.write("\3\2\2\u0110\u0111\7(\2\2\u0111\u0112\5(\25\2\u0112\u0113")
-        buf.write("\7)\2\2\u0113\u0115\3\2\2\2\u0114\u010f\3\2\2\2\u0115")
-        buf.write("\u0118\3\2\2\2\u0116\u0114\3\2\2\2\u0116\u0117\3\2\2\2")
-        buf.write("\u01179\3\2\2\2\u0118\u0116\3\2\2\2\u0119\u011a\7\7\2")
-        buf.write("\2\u011a\u0123\7$\2\2\u011b\u0120\5(\25\2\u011c\u011d")
-        buf.write("\7,\2\2\u011d\u011f\5(\25\2\u011e\u011c\3\2\2\2\u011f")
-        buf.write("\u0122\3\2\2\2\u0120\u011e\3\2\2\2\u0120\u0121\3\2\2\2")
-        buf.write("\u0121\u0124\3\2\2\2\u0122\u0120\3\2\2\2\u0123\u011b\3")
-        buf.write("\2\2\2\u0123\u0124\3\2\2\2\u0124\u0125\3\2\2\2\u0125\u0126")
-        buf.write("\7%\2\2\u0126;\3\2\2\2\u0127\u0128\7\7\2\2\u0128\u0129")
-        buf.write("\7(\2\2\u0129\u012a\7\3\2\2\u012a\u012b\7)\2\2\u012b=")
-        buf.write("\3\2\2\2\u012c\u012d\t\6\2\2\u012d?\3\2\2\2\34CIQ\\bj")
-        buf.write("u|\u0081\u0083\u0090\u0099\u009f\u00b7\u00c3\u00cd\u00d8")
+        buf.write("\3\2\2\2\u0109\u010e\5> \2\u010a\u010e\7\30\2\2\u010b")
+        buf.write("\u010e\5:\36\2\u010c\u010e\5<\37\2\u010d\u0104\3\2\2\2")
+        buf.write("\u010d\u0109\3\2\2\2\u010d\u010a\3\2\2\2\u010d\u010b\3")
+        buf.write("\2\2\2\u010d\u010c\3\2\2\2\u010e\u0116\3\2\2\2\u010f\u0110")
+        buf.write("\f\3\2\2\u0110\u0111\7(\2\2\u0111\u0112\5(\25\2\u0112")
+        buf.write("\u0113\7)\2\2\u0113\u0115\3\2\2\2\u0114\u010f\3\2\2\2")
+        buf.write("\u0115\u0118\3\2\2\2\u0116\u0114\3\2\2\2\u0116\u0117\3")
+        buf.write("\2\2\2\u01179\3\2\2\2\u0118\u0116\3\2\2\2\u0119\u011a")
+        buf.write("\7\30\2\2\u011a\u0123\7$\2\2\u011b\u0120\5(\25\2\u011c")
+        buf.write("\u011d\7,\2\2\u011d\u011f\5(\25\2\u011e\u011c\3\2\2\2")
+        buf.write("\u011f\u0122\3\2\2\2\u0120\u011e\3\2\2\2\u0120\u0121\3")
+        buf.write("\2\2\2\u0121\u0124\3\2\2\2\u0122\u0120\3\2\2\2\u0123\u011b")
+        buf.write("\3\2\2\2\u0123\u0124\3\2\2\2\u0124\u0125\3\2\2\2\u0125")
+        buf.write("\u0126\7%\2\2\u0126;\3\2\2\2\u0127\u0128\7\30\2\2\u0128")
+        buf.write("\u0129\7(\2\2\u0129\u012a\7\3\2\2\u012a\u012b\7)\2\2\u012b")
+        buf.write("=\3\2\2\2\u012c\u012d\t\6\2\2\u012d?\3\2\2\2\34CIQ\\b")
+        buf.write("ju|\u0081\u0083\u0090\u0099\u009f\u00b7\u00c3\u00cd\u00d8")
         buf.write("\u00e0\u00e7\u00f1\u00fc\u0102\u010d\u0116\u0120\u0123")
         return buf.getvalue()
 
@@ -151,19 +151,19 @@ class MCParser ( Parser ):
     sharedContextCache = PredictionContextCache()
 
     literalNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                     "'break'", "'continue'", "'else'", "'for'", "'if'", 
-                     "'return'", "'do'", "'while'", "'true'", "'false'", 
-                     "'boolean'", "'void'", "'int'", "'float'", "'string'", 
-                     "'='", "'||'", "'&&'", "<INVALID>", "<INVALID>", "'+'", 
-                     "'-'", "'*'", "'/'", "'%'", "'!'", "'('", "')'", "'{'", 
-                     "'}'", "'['", "']'", "';'", "':'", "','" ]
+                     "<INVALID>", "<INVALID>", "<INVALID>", "'break'", "'continue'", 
+                     "'else'", "'for'", "'if'", "'return'", "'do'", "'while'", 
+                     "'true'", "'false'", "'boolean'", "'void'", "'int'", 
+                     "'float'", "'string'", "<INVALID>", "'='", "'||'", 
+                     "'&&'", "<INVALID>", "<INVALID>", "'+'", "'-'", "'*'", 
+                     "'/'", "'%'", "'!'", "'('", "')'", "'{'", "'}'", "'['", 
+                     "']'", "';'", "':'", "','" ]
 
     symbolicNames = [ "<INVALID>", "INTLIT", "FLOATLIT", "BOOLEANLIT", "STRINGLIT", 
-                      "ID", "BLOCK_COMMENT", "LINE_COMMENT", "BREAK", "CONTINUE", 
+                      "BLOCK_COMMENT", "LINE_COMMENT", "BREAK", "CONTINUE", 
                       "ELSE", "FOR", "IF", "RETURN", "DO", "WHILE", "TRUE", 
                       "FALSE", "BOOLEANTYPE", "VOIDTYPE", "INTTYPE", "FLOATTYPE", 
-                      "STRINGTYPE", "ASSIGN", "OROP", "ANDOP", "EQUALOP", 
+                      "STRINGTYPE", "ID", "ASSIGN", "OROP", "ANDOP", "EQUALOP", 
                       "COMPOP", "ADDOP", "SUBOP", "MULOP", "DIVOP", "MODOP", 
                       "NEGOP", "LB", "RB", "LP", "RP", "LS", "RS", "SEMI", 
                       "COLON", "COMMA", "WS", "ERROR_CHAR", "UNCLOSE_STRING", 
@@ -213,24 +213,24 @@ class MCParser ( Parser ):
     FLOATLIT=2
     BOOLEANLIT=3
     STRINGLIT=4
-    ID=5
-    BLOCK_COMMENT=6
-    LINE_COMMENT=7
-    BREAK=8
-    CONTINUE=9
-    ELSE=10
-    FOR=11
-    IF=12
-    RETURN=13
-    DO=14
-    WHILE=15
-    TRUE=16
-    FALSE=17
-    BOOLEANTYPE=18
-    VOIDTYPE=19
-    INTTYPE=20
-    FLOATTYPE=21
-    STRINGTYPE=22
+    BLOCK_COMMENT=5
+    LINE_COMMENT=6
+    BREAK=7
+    CONTINUE=8
+    ELSE=9
+    FOR=10
+    IF=11
+    RETURN=12
+    DO=13
+    WHILE=14
+    TRUE=15
+    FALSE=16
+    BOOLEANTYPE=17
+    VOIDTYPE=18
+    INTTYPE=19
+    FLOATTYPE=20
+    STRINGTYPE=21
+    ID=22
     ASSIGN=23
     OROP=24
     ANDOP=25
@@ -846,7 +846,7 @@ class MCParser ( Parser ):
             self.state = 129
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << MCParser.INTLIT) | (1 << MCParser.FLOATLIT) | (1 << MCParser.BOOLEANLIT) | (1 << MCParser.STRINGLIT) | (1 << MCParser.ID) | (1 << MCParser.BREAK) | (1 << MCParser.CONTINUE) | (1 << MCParser.FOR) | (1 << MCParser.IF) | (1 << MCParser.RETURN) | (1 << MCParser.DO) | (1 << MCParser.BOOLEANTYPE) | (1 << MCParser.INTTYPE) | (1 << MCParser.FLOATTYPE) | (1 << MCParser.STRINGTYPE) | (1 << MCParser.SUBOP) | (1 << MCParser.NEGOP) | (1 << MCParser.LB) | (1 << MCParser.LP))) != 0):
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << MCParser.INTLIT) | (1 << MCParser.FLOATLIT) | (1 << MCParser.BOOLEANLIT) | (1 << MCParser.STRINGLIT) | (1 << MCParser.BREAK) | (1 << MCParser.CONTINUE) | (1 << MCParser.FOR) | (1 << MCParser.IF) | (1 << MCParser.RETURN) | (1 << MCParser.DO) | (1 << MCParser.BOOLEANTYPE) | (1 << MCParser.INTTYPE) | (1 << MCParser.FLOATTYPE) | (1 << MCParser.STRINGTYPE) | (1 << MCParser.ID) | (1 << MCParser.SUBOP) | (1 << MCParser.NEGOP) | (1 << MCParser.LB) | (1 << MCParser.LP))) != 0):
                 self.state = 127
                 self._errHandler.sync(self)
                 token = self._input.LA(1)
@@ -854,7 +854,7 @@ class MCParser ( Parser ):
                     self.state = 125
                     self.vardecl()
                     pass
-                elif token in [MCParser.INTLIT, MCParser.FLOATLIT, MCParser.BOOLEANLIT, MCParser.STRINGLIT, MCParser.ID, MCParser.BREAK, MCParser.CONTINUE, MCParser.FOR, MCParser.IF, MCParser.RETURN, MCParser.DO, MCParser.SUBOP, MCParser.NEGOP, MCParser.LB, MCParser.LP]:
+                elif token in [MCParser.INTLIT, MCParser.FLOATLIT, MCParser.BOOLEANLIT, MCParser.STRINGLIT, MCParser.BREAK, MCParser.CONTINUE, MCParser.FOR, MCParser.IF, MCParser.RETURN, MCParser.DO, MCParser.ID, MCParser.SUBOP, MCParser.NEGOP, MCParser.LB, MCParser.LP]:
                     self.state = 126
                     self.stmt()
                     pass
@@ -1097,7 +1097,7 @@ class MCParser ( Parser ):
                 self.state = 157 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << MCParser.INTLIT) | (1 << MCParser.FLOATLIT) | (1 << MCParser.BOOLEANLIT) | (1 << MCParser.STRINGLIT) | (1 << MCParser.ID) | (1 << MCParser.BREAK) | (1 << MCParser.CONTINUE) | (1 << MCParser.FOR) | (1 << MCParser.IF) | (1 << MCParser.RETURN) | (1 << MCParser.DO) | (1 << MCParser.SUBOP) | (1 << MCParser.NEGOP) | (1 << MCParser.LB) | (1 << MCParser.LP))) != 0)):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << MCParser.INTLIT) | (1 << MCParser.FLOATLIT) | (1 << MCParser.BOOLEANLIT) | (1 << MCParser.STRINGLIT) | (1 << MCParser.BREAK) | (1 << MCParser.CONTINUE) | (1 << MCParser.FOR) | (1 << MCParser.IF) | (1 << MCParser.RETURN) | (1 << MCParser.DO) | (1 << MCParser.ID) | (1 << MCParser.SUBOP) | (1 << MCParser.NEGOP) | (1 << MCParser.LB) | (1 << MCParser.LP))) != 0)):
                     break
 
             self.state = 159

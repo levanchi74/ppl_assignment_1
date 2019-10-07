@@ -1,3 +1,8 @@
+/*
+    Student: Le Van Chi 
+    MSSV:    1510289
+ */
+
 grammar MC;
 
 @lexer::header {
@@ -42,6 +47,7 @@ stmt: ifstmt | dowhilestmt | forstmt | breakstmt | contistmt | returnstmt | exps
 ifstmt: IF LB exp RB stmt (ELSE stmt)?;
 dowhilestmt: DO stmt+ WHILE exp SEMI;
 forstmt:     FOR LB exp SEMI exp SEMI exp RB stmt;    
+
 breakstmt:   BREAK SEMI;
 contistmt:   CONTINUE SEMI;
 returnstmt:  RETURN exp? SEMI;
@@ -63,7 +69,7 @@ exp8:   LB exp RB |
         exp8 LS exp RS
     ;
 
-funcall : ID LB (exp (COMMA exp)*)? RB;     //?
+funcall : ID LB (exp (COMMA exp)*)? RB;     
 elearray: ID LS INTLIT RS;
 
 literal: INTLIT | FLOATLIT | BOOLEANLIT | STRINGLIT ;   
@@ -83,10 +89,8 @@ STRINGLIT
 fragment ESC : '\\'[bfrnt"\\];
 
 
-ID: [a-zA-Z_][a-zA-Z0-9_]*;
-
-BLOCK_COMMENT: '/*' .*? '*/' -> skip;   //?
-LINE_COMMENT: '//' ~[\r\n\f]* -> skip;  //?
+BLOCK_COMMENT: '/*' .*? '*/' -> skip;   
+LINE_COMMENT: '//' ~[\r\n\f]* -> skip;  
 
 BREAK: 'break';
 CONTINUE: 'continue';
@@ -104,6 +108,8 @@ VOIDTYPE: 'void';
 INTTYPE: 'int';
 FLOATTYPE: 'float';
 STRINGTYPE: 'string';
+
+ID: [a-zA-Z_][a-zA-Z0-9_]*;
 
 ASSIGN: '=';
 OROP: '||';
@@ -126,7 +132,7 @@ SEMI: ';';
 COLON: ':';
 COMMA: ',';
 
-WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines
+WS : [ \t\r\n]+ -> skip ; 
 
 
 ERROR_CHAR: .;

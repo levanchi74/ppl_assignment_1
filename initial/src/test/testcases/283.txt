@@ -1,0 +1,6 @@
+
+        int main ()
+        {
+            string abc;
+            return foo[ foo(foo(a + b + c))- abc[abc[(abc)]] ];
+        }
